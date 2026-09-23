@@ -167,7 +167,7 @@ nav {
   background-color: #F5F5F5;
 }
 
-.language__img:hover {
+.language:hover .language__img {
   transform: scale(0.9);
   opacity: 0.8;
   transition: all 0.3s ease-in-out;
@@ -194,4 +194,15 @@ nav {
   /* position: absolute; */
   justify-content: center;
   display: flex;
+  transform: scale(0);
+}
+
+.language:hover .language__name {
+  transform: scale(1);
+  transition: all 0.3s ease-out;
+
+}
+
+.project__img {
+  width: 100%;
 }
